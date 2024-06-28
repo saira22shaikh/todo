@@ -97,7 +97,7 @@ input{
     font-weight: bold;
     margin-left: 20px;
     color:hsl(47, 43%, 80%);
-    
+     
 }
 .tab{
     font-family: "Poppins";
@@ -134,60 +134,4 @@ body{
 }
 .nic{
     margin-left: 10px;
-}
-.block-1::after{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 10px;
-    background-image:url("images/trash.png") ;
-   
-}
-.relative{
-    position: relative;
-}
-.block-2::after{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 10px;
-    background-image:url("images/trash.png") ;
-}
-.block-3::after{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 10px;
-    background-image:url("images/trash.png") ;
-}
-.block-1::before{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 40px;
-    background-image:url("images/edit.png") ;
-   
-}
-.relative{
-    position: relative;
-}
-.block-2::before{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 40px;
-    background-image:url("images/edit.png") ;
-}
-.block-3::before{
-    content: '';
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    right: 40px;
-    background-image:url("images/edit.png") ;
 }
