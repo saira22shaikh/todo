@@ -30,34 +30,11 @@
         </div>
         <script>
             function addTask() {
-                var taskInput = document.getElementById('taskInput');
-                var taskList = document.getElementById('taskList');
-                var taskCount = document.getElementById('taskCount');
-    
-                if (taskInput.value.trim() !== '') {
-                    var newTask = document.createElement('div');
-                    newTask.classList.add('block-1');
-    
-                    var taskIcon = document.createElement('div');
-                    taskIcon.classList.add('run');
-    
-                    var taskName = document.createElement('div');
-                    taskName.classList.add('nic');
-                    taskName.textContent = taskInput.value;
-                    newTask.appendChild(taskIcon);
-                    newTask.appendChild(taskName);
-                    taskList.appendChild(newTask);
-    
-                    // Update task count
-                    var currentCount = parseInt(taskCount.textContent.split('/')[0]);
-                    var totalCount = parseInt(taskCount.textContent.split('/')[1]);
-                    taskCount.textContent = (currentCount + 1) + '/' + totalCount;
-    
-                    // Clear input
-                    taskInput.value = '';
-                }
+                
+                let taskInput = document.getElementById('taskInput');
+                let taskList = document.getElementById('taskList');
+                let taskCount = document.getElementById('taskCount');
             }
-            
-        </script> 
+        </script>
     </body>
 </html>
